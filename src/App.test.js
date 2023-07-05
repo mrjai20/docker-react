@@ -3,12 +3,12 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Goodbye!/i);
+  const linkElement = screen.getByText(/Hi There!/i);
   expect(linkElement).toBeInTheDocument();
 });
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Goodbye!/i);
+  const linkElement = screen.getByText(/Hi There!/i);
   expect(linkElement).toBeInTheDocument();
 });
