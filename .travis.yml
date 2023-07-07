@@ -2,6 +2,8 @@ sudo: required
 services:
   - docker
 
+install: travis_wait 30 mvn install
+
 before_install:
   - docker build -t mrjai20/docker-react -f Dockerfile.dev .
 
